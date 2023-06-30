@@ -1,0 +1,93 @@
+.form-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    height: 100vh;
+}
+
+.login-form-container{
+    background-color: whitesmoke;
+    height: 500px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    border-style: solid;
+}
+
+.input-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 10px;   
+}
+
+.input-field{
+    width: 150px;
+    border-style: none;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+.button{
+    width: 50px;
+    border: none;   
+    background-color: transparent;
+}
+
+.input-container2{
+    width: 200px;
+    height: 50px;
+    border-style: solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.login-button{
+    align-self: center;
+    background-color: blue;
+    color: white;
+    border-style: none;
+    width: 80px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.toggle-account-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    width: 300px;
+    height: 50px;
+    border-style: solid;
+}
+
+.password-eye-container{
+    width: 200px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: grey;
+}
+
+.input-label{
+    font-family: "Roboto";
+    font-size: 14px;
+}
+
+.error-message{
+    color: red;
+    font-size: 15px
+}

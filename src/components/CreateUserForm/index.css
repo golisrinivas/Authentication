@@ -1,0 +1,74 @@
+.input-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 10px;
+    
+}
+
+.input-container2{
+    width: 200px;
+    height: 50px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: grey;
+}
+
+.form-container{
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+.register-form-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    height: 500px;
+    width: 300px;
+    margin-bottom: 10px;
+    border-style: solid;
+    
+}
+
+.input-field{
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    outline: none;
+}
+
+.label-field{
+    font-family: "Roboto";
+    font-size: 14px;
+}
+
+.error-msg{
+    color: red;
+    font-size: 15px;
+}
+
+.toggle-account-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    width: 300px;
+    height: 50px;
+}
+
+.sign-up-button{
+    background-color: blue;
+    color: white;
+    border-style: none;
+    width: 80px;
+    padding: 10px;
+    border-radius: 5px;
+}
